@@ -1,0 +1,538 @@
+Parser Initializing...
+---------------------------------------------------
+Begin: Parser
+  Begin: Program
+    Begin: Statement
+      Begin: BackgroundStatement
+	'BACKGROUND' Matched.
+	'COLOR' Matched.
+	'IS' Matched.
+	Background Color : WHITE
+      End: Background Statement
+    End: Statement
+    Begin: Statement
+      Begin: LabelStatement
+	'LABEL' Matched.
+    End: Statement
+    Begin: Statement
+      Begin: OriginStatement
+	'ORIGIN' Matched.
+	'IS' Matched.
+	Origin-X:
+	  50.000000
+		Value of Tree:50.000000
+	Origin-Y:
+	  200.000000
+		Value of Tree:200.000000
+      End: OriginStatement
+    End: Statement
+    Begin: Statement
+      Begin: ScaleStatement
+	'SCALE' Matched.
+	'IS' Matched.
+	Scale-X:
+	  1.000000
+		Value of Tree:1.000000
+	Scale-Y:
+	  0.500000
+		Value of Tree:0.500000
+      End: ScaleStatement
+    End: Statement
+    Begin: Statement
+      Begin: AxisxStatement
+	'AXISX' Matched.
+    End: Statement
+    Begin: Statement
+      Begin: AxisyStatement
+	'AXISY' Matched.
+    End: Statement
+    Begin: Statement
+      Begin: ColorStatement
+	'COLOR' Matched.
+	'IS' Matched.
+	Color : YELLOW
+      End: ColorStatement
+    End: Statement
+    Begin: Statement
+      Begin: ForStatement
+	'FOR' Matched.
+	'T' Matched.
+	'FROM' Matched.
+	From:
+	  0.000000
+	'TO' Matched.
+	To:
+	  500.000000
+	'STEP' Matched.
+	Step:
+	  1.000000
+	'DRAW' Matched.
+	'T' Matched.
+	axis-X:
+	  T
+	'T' Matched.
+	axis-Y:
+	  T
+      End: ForStatement
+----------- Start plotting -----------
+    End: Statement
+    Begin: Statement
+      Begin: LabelStatement
+	'LABEL' Matched.
+    End: Statement
+    Begin: Statement
+      Begin: ColorStatement
+	'COLOR' Matched.
+	'IS' Matched.
+	Color : RED
+      End: ColorStatement
+    End: Statement
+    Begin: Statement
+      Begin: ForStatement
+	'FOR' Matched.
+	'T' Matched.
+	'FROM' Matched.
+	From:
+	  0.000000
+	'TO' Matched.
+	To:
+	  500.000000
+	'STEP' Matched.
+	Step:
+	  1.000000
+	'DRAW' Matched.
+	'T' Matched.
+	axis-X:
+	  T
+	'LN' Matched.
+	'T' Matched.
+	axis-Y:
+	  *
+		  75.000000
+		  473950
+			  +
+				  T
+				  1.000000
+      End: ForStatement
+----------- Start plotting -----------
+    End: Statement
+    Begin: Statement
+      Begin: LabelStatement
+	'LABEL' Matched.
+    End: Statement
+    Begin: Statement
+      Begin: ColorStatement
+	'COLOR' Matched.
+	'IS' Matched.
+	Color : GREEN
+      End: ColorStatement
+    End: Statement
+    Begin: Statement
+      Begin: ForStatement
+	'FOR' Matched.
+	'T' Matched.
+	'FROM' Matched.
+	From:
+	  0.000000
+	'TO' Matched.
+	To:
+	  500.000000
+	'STEP' Matched.
+	Step:
+	  1.000000
+	'DRAW' Matched.
+	'T' Matched.
+	axis-X:
+	  T
+	'SQRT' Matched.
+	'T' Matched.
+	axis-Y:
+	  *
+		  10.000000
+		  473960
+			  T
+      End: ForStatement
+----------- Start plotting -----------
+    End: Statement
+    Begin: Statement
+      Begin: LabelStatement
+	'LABEL' Matched.
+    End: Statement
+    Begin: Statement
+      Begin: ColorStatement
+	'COLOR' Matched.
+	'IS' Matched.
+	Color : BLUE
+      End: ColorStatement
+    End: Statement
+    Begin: Statement
+      Begin: ForStatement
+	'FOR' Matched.
+	'T' Matched.
+	'FROM' Matched.
+	From:
+	  0.000000
+	'TO' Matched.
+	To:
+	  500.000000
+	'STEP' Matched.
+	Step:
+	  1.000000
+	'DRAW' Matched.
+	'T' Matched.
+	axis-X:
+	  T
+	'SIN' Matched.
+	'T' Matched.
+	axis-Y:
+	  *
+		  100.000000
+		  473938
+			  *
+				  0.100000
+				  T
+      End: ForStatement
+----------- Start plotting -----------
+    End: Statement
+    Begin: Statement
+      Begin: LabelStatement
+	'LABEL' Matched.
+    End: Statement
+    Begin: Statement
+      Begin: LabelStatement
+	'LABEL' Matched.
+    End: Statement
+    Begin: Statement
+      Begin: ColorStatement
+	'COLOR' Matched.
+	'IS' Matched.
+	Color : BLUE
+      End: ColorStatement
+    End: Statement
+    Begin: Statement
+      Begin: OriginStatement
+	'ORIGIN' Matched.
+	'IS' Matched.
+	Origin-X:
+	  800.000000
+		Value of Tree:800.000000
+	Origin-Y:
+	  450.000000
+		Value of Tree:450.000000
+      End: OriginStatement
+    End: Statement
+    Begin: Statement
+      Begin: ScaleStatement
+	'SCALE' Matched.
+	'IS' Matched.
+	Scale-X:
+	  100.000000
+		Value of Tree:100.000000
+	Scale-Y:
+	  /
+		  100.000000
+		  3.000000
+		Value of Tree:33.333333
+      End: ScaleStatement
+    End: Statement
+    Begin: Statement
+      Begin: ForStatement
+	'FOR' Matched.
+	'T' Matched.
+	'FROM' Matched.
+	From:
+	  0.000000
+	'TO' Matched.
+	'PI' Matched.
+	To:
+	  *
+		  2.000000
+		  3.141593
+	'STEP' Matched.
+	'PI' Matched.
+	Step:
+	  /
+		  3.141593
+		  100.000000
+	'DRAW' Matched.
+	'COS' Matched.
+	'T' Matched.
+	axis-X:
+	  473940
+		  T
+	'SIN' Matched.
+	'T' Matched.
+	axis-Y:
+	  473938
+		  T
+      End: ForStatement
+----------- Start plotting -----------
+    End: Statement
+    Begin: Statement
+      Begin: RotStatement
+	'ROT' Matched.
+	'IS' Matched.
+	'PI' Matched.
+	Rotation angle:
+	  /
+		  *
+			  2.000000
+			  3.141593
+		  3.000000
+		Value of Tree:2.094395
+      End: RotStatement
+    End: Statement
+    Begin: Statement
+      Begin: ForStatement
+	'FOR' Matched.
+	'T' Matched.
+	'FROM' Matched.
+	From:
+	  0.000000
+	'TO' Matched.
+	'PI' Matched.
+	To:
+	  *
+		  2.000000
+		  3.141593
+	'STEP' Matched.
+	'PI' Matched.
+	Step:
+	  /
+		  3.141593
+		  100.000000
+	'DRAW' Matched.
+	'COS' Matched.
+	'T' Matched.
+	axis-X:
+	  473940
+		  T
+	'SIN' Matched.
+	'T' Matched.
+	axis-Y:
+	  473938
+		  T
+      End: ForStatement
+----------- Start plotting -----------
+    End: Statement
+    Begin: Statement
+      Begin: RotStatement
+	'ROT' Matched.
+	'IS' Matched.
+	'PI' Matched.
+	Rotation angle:
+	  /
+		  *
+			  4.000000
+			  3.141593
+		  3.000000
+		Value of Tree:4.188790
+      End: RotStatement
+    End: Statement
+    Begin: Statement
+      Begin: ForStatement
+	'FOR' Matched.
+	'T' Matched.
+	'FROM' Matched.
+	From:
+	  0.000000
+	'TO' Matched.
+	'PI' Matched.
+	To:
+	  *
+		  2.000000
+		  3.141593
+	'STEP' Matched.
+	'PI' Matched.
+	Step:
+	  /
+		  3.141593
+		  100.000000
+	'DRAW' Matched.
+	'COS' Matched.
+	'T' Matched.
+	axis-X:
+	  473940
+		  T
+	'SIN' Matched.
+	'T' Matched.
+	axis-Y:
+	  473938
+		  T
+      End: ForStatement
+----------- Start plotting -----------
+    End: Statement
+    Begin: Statement
+      Begin: LabelStatement
+	'LABEL' Matched.
+    End: Statement
+    Begin: Statement
+      Begin: ColorStatement
+	'COLOR' Matched.
+	'IS' Matched.
+	Color : RED
+      End: ColorStatement
+    End: Statement
+    Begin: Statement
+      Begin: OriginStatement
+	'ORIGIN' Matched.
+	'IS' Matched.
+	Origin-X:
+	  800.000000
+		Value of Tree:800.000000
+	Origin-Y:
+	  150.000000
+		Value of Tree:150.000000
+      End: OriginStatement
+    End: Statement
+    Begin: Statement
+      Begin: ScaleStatement
+	'SCALE' Matched.
+	'IS' Matched.
+	Scale-X:
+	  80.000000
+		Value of Tree:80.000000
+	Scale-Y:
+	  80.000000
+		Value of Tree:80.000000
+      End: ScaleStatement
+    End: Statement
+    Begin: Statement
+      Begin: RotStatement
+	'ROT' Matched.
+	'IS' Matched.
+	Rotation angle:
+	  0.000000
+		Value of Tree:0.000000
+      End: RotStatement
+    End: Statement
+    Begin: Statement
+      Begin: ForStatement
+	'FOR' Matched.
+	'T' Matched.
+	'FROM' Matched.
+	From:
+	  0.000000
+	'TO' Matched.
+	'PI' Matched.
+	To:
+	  *
+		  2.000000
+		  3.141593
+	'STEP' Matched.
+	'PI' Matched.
+	Step:
+	  /
+		  3.141593
+		  100.000000
+	'DRAW' Matched.
+	'COS' Matched.
+	'T' Matched.
+	axis-X:
+	  473940
+		  T
+	'SIN' Matched.
+	'T' Matched.
+	axis-Y:
+	  473938
+		  T
+      End: ForStatement
+----------- Start plotting -----------
+    End: Statement
+    Begin: Statement
+      Begin: ForStatement
+	'FOR' Matched.
+	'T' Matched.
+	'FROM' Matched.
+	From:
+	  0.000000
+	'TO' Matched.
+	'PI' Matched.
+	To:
+	  *
+		  3.141593
+		  20.000000
+	'STEP' Matched.
+	'PI' Matched.
+	Step:
+	  /
+		  3.141593
+		  50.000000
+	'DRAW' Matched.
+	'COS' Matched.
+	'T' Matched.
+	'COS' Matched.
+	'T' Matched.
+	axis-X:
+	  +
+		  *
+			  -
+				  1.000000
+				  /
+					  1.000000
+					  /
+						  10.000000
+						  7.000000
+			  473940
+				  T
+		  *
+			  /
+				  1.000000
+				  /
+					  10.000000
+					  7.000000
+			  473940
+				  *
+					  -
+						  0.000000
+						  T
+					  -
+						  /
+							  10.000000
+							  7.000000
+						  1.000000
+	'SIN' Matched.
+	'T' Matched.
+	'SIN' Matched.
+	'T' Matched.
+	axis-Y:
+	  +
+		  *
+			  -
+				  1.000000
+				  /
+					  1.000000
+					  /
+						  10.000000
+						  7.000000
+			  473938
+				  T
+		  *
+			  /
+				  1.000000
+				  /
+					  10.000000
+					  7.000000
+			  473938
+				  *
+					  -
+						  0.000000
+						  T
+					  -
+						  /
+							  10.000000
+							  7.000000
+						  1.000000
+      End: ForStatement
+----------- Start plotting -----------
+    End: Statement
+    Begin: Statement
+      Begin: LabelStatement
+	'LABEL' Matched.
+    End: Statement
+  End: Program
+End: Paser
+---------------------------------------------------
+Analyze finished: 1 error(s).
+---------------------------------------------------
+error in line 30: Expect ';' before 'COLOR'. 
